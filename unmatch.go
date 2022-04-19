@@ -1,9 +1,9 @@
 package piscine
 
 func Unmatch(a []int) int {
-	for _, i := range arr {
+	for _, i := range a {
 		notpair := 0
-		for _, j := range arr {
+		for _, j := range a {
 			if j == i {
 				notpair++
 			}

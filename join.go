@@ -1,3 +1,5 @@
+package piscine
+
 func Join(strs []string, sep string) string {
 	concat := ""
 	for i, result := range strs {
