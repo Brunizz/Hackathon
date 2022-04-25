@@ -22,7 +22,7 @@ func replace(l *NodeI) *NodeI {
 	a := l
 	b := l.Next
 	cantusereturnhere := b
-	for n != nil && l.Data > b.Data {
+	for b != nil && l.Data > b.Data {
 		a = b
 		b = b.Next
 	}
